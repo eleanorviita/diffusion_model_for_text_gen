@@ -25,7 +25,7 @@ This repository contains code for three model types across two text generation t
 │  ├─ preprocess.py
 │  ├─ utils.py
 │  ├─ GYAFC_Corpus (not included here)
-│  └─ yelp_formality_tagged_clean.jsonl
+│  └─ yelp_formality_tagged_clean.jsonl (not included here)
 ├─ tasks/
 │  ├─ controllable.py
 │  ├─ open_ended.py
