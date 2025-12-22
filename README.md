@@ -20,7 +20,9 @@ This repository contains code for three model types across two text generation t
 │  ├─ trained models (not included here)
 │  ├─ ar.py
 │  ├─ nar.py
-│  └─ diffusion.py
+│  ├─ diffusion.py
+│  ├─ formality_classifier.py
+│  └─ sentiment_classifier.py
 ├─ data/
 │  ├─ preprocess.py
 │  ├─ utils.py
