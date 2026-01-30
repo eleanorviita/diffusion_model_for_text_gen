@@ -1,17 +1,17 @@
 # Diffusion Models for Text Generation - MSc Project
 
-Two paradigms have come to dominate natural language processing (NLP): autoregressive (AR) models, where text is generated in sequence, extrapolating each element (or token) in a sentence from the previous one, and non-autoregressive (NAR) models, which generate multiple tokens in parallel. Diffusion models are a relatively recent development in NLP, operating by iteratively refining noise from a given input, until a coherent output is produced. These models have been used successfully in image generation and are now being applied to generate text too.
+Two main types of machine learning models are used in natural language processing (NLP): autoregressive (AR) models, where text is generated in sequence, extrapolating each word (or token) in a sentence from the previous one, and non-autoregressive (NAR) models, which generate multiple tokens in parallel. Diffusion models are a relatively recent development in NLP. They work by iteratively refining noise from a given input, until a coherent output is produced. These models have been used successfully in image generation and are now being applied to generate text.
 
 This project set out to implement diffusion techniques for text generation and evaluate the performance and effectiveness of diffusion models compared to AR and NAR baselines, based on a selection of typical tasks and benchmarks in literature.  
 
 This repository contains code for three model types across two text generation tasks:
-- Controllable generation
-- Open-ended generation
+- Controllable generation (i.e. text written in a particular style, sentiment or formality)
+- Open-ended generation (e.g. continuing the text "once upon a time...")
 
 ### Model types:
 - Autoregressive (AR, GPT-2 fine-tuned)
 - Non-autoregressive (NAR, BERT mask-predict, with and without knowledge distillation)
-- Diffusion (T5 encoder + diffusion decoder)
+- Diffusion (T5 encoder + custom diffusion decoder)
 
 ## Repository structure
 ```
